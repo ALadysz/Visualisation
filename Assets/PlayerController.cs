@@ -6,19 +6,19 @@ using UnityEngine;
 public class PlayerController3D : MonoBehaviour
 {
     [Header("Movement Settings")]
-    [SerializedField] private float moveSpeed = 5f;
-    [SerializedField] private float jumpHeight = 1.5f;
-    [SerializedField] private float gravity = -9.81f;
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float jumpHeight = 1.5f;
+    [SerializeField] private float gravity = -9.81f;
 
     [Header("Camera Settings")]
-    [SerializedField] private Transform cameraTransform;
-    [SerializedField] private float mouseSensitivity = 100f;
-    [SerializedField] private float maxLookAngle = 80f;
+    [SerializeField] private Transform cameraTransform;
+    [SerializeField] private float mouseSensitivity = 100f;
+    [SerializeField] private float maxLookAngle = 80f;
 
     [Header("Ground Check")]
-    [SerializedField] private Transform groundCheck;
-    [SerializedField] private float groundCheckRadius = 0.3f;
-    [SerializedField] private LayerMask groundLayer;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private float groundCheckRadius = 0.3f;
+    [SerializeField] private LayerMask groundLayer;
 
     private CharacterController controller;
     private Vector3 velocity;
