@@ -9,6 +9,9 @@ TagManager:
   - Grass
   - Mushroom
   - OtherTree
+  - Cube
+  - Spawn
+  - Text
   layers:
   - Default
   - TransparentFX

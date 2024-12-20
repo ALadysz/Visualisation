@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Base Scene.unity
+    guid: 9eb3d3406fabb5b408a4f80927c3710d
+  - enabled: 1
+    path: Assets/Scenes/Blur Scene.unity
+    guid: 3d2257935c87a5549b29c1c40ba09113
+  - enabled: 1
+    path: Assets/Scenes/Colour Blind.unity
+    guid: b09c4d9915b1b7f448fee1cfc2c7afca
+  - enabled: 1
+    path: Assets/Scenes/Animal Scene.unity
+    guid: fc06a1e837963fe4db393c6b96b995e3
+  - enabled: 1
+    path: Assets/Scenes/Neurological Scene.unity
+    guid: 5b40b12687ffed2438ae240ea2c1009f
   m_configObjects: {}
